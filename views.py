@@ -284,4 +284,6 @@ def handle_one_order(sid: int):
         db.session.commit()
         return f"Order {sid} deleted"
 
-app.run()
+    
+if __name__ == "__main__":
+    app.run()
